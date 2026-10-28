@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Des burgers généreux, des produits frais et une pause pleine de goût. Découvrez la carte Burger Xpress.">
+    <meta name="theme-color" content="#211f1d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Burger Xpress — Le burger qui va vite.</title>
+</head>
+<body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <main id="contenu">
+        <section class="hero" id="accueil" aria-labelledby="titre-principal">
+            <header class="site-header page-wrap">
+                <a class="brand" href="#accueil" aria-label="Burger Xpress, accueil">
+                    <img src="images/logo.png" alt="Burger Xpress">
+                </a>
+                <nav aria-label="Navigation principale">
+                    <ul class="main-nav">
+                        <li><a href="#menu">La carte</a></li>
+                        <li><a href="#avis">Les avis</a></li>
+                        <li><a href="#newsletter">Newsletter</a></li>
+                    </ul>
+                </nav>
+                <a class="header-cta" href="#menu">Commander <span aria-hidden="true">↗</span></a>
+            </header>
+
+            <div class="hero-layout page-wrap">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Le goût du vrai, sans détour</p>
+                    <h1 id="titre-principal">Le burger<br>qui <span>va vite.</span></h1>
+                    <p class="hero-description">Du bon, du généreux, du préparé avec soin. La pause qui met tout le monde d’accord.</p>
+                    <div class="hero-actions">
+                        <a class="button button-yellow" href="#menu">Découvrir la carte <span aria-hidden="true">→</span></a>
+                        <p class="starting-price">À partir de <strong>6,90 €</strong></p>
+                    </div>
+                    <p class="hero-note"><span aria-hidden="true">✦</span> Préparé avec amour, servi sans attendre.</p>
+                </div>
+                <figure class="hero-visual">
+                    <div class="hero-image-frame">
+                        <img src="images/rapido-burger.png" alt="Le Rapido Burger, pain brioché, steak grillé et légumes frais" fetchpriority="high">
+                    </div>
+                    <figcaption><span>Notre incontournable</span><strong>Le Rapido</strong></figcaption>
+                    <span class="hero-sticker" aria-label="À seulement 8,90 euros">8,90 €</span>
+                </figure>
+            </div>
+            <div class="hero-footer page-wrap">
+                <span>Du frais. Du local. Du bonheur.</span>
+                <a href="#menu">Explorer le menu <span aria-hidden="true">↓</span></a>
+            </div>
+        </section>
+
+        <section class="menu-section section-pad" id="menu" aria-labelledby="titre-menu">
+            <div class="page-wrap">
+                <div class="section-heading">
+                    <p class="eyebrow eyebrow-dark">La carte</p>
+                    <h2 id="titre-menu">De quoi se faire<br><span>vraiment plaisir.</span></h2>
+                    <p>Des recettes généreuses, des ingrédients choisis et toujours une bonne raison de revenir.</p>
+                </div>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/classic-burger.jpg" alt="Classic Burger avec steak de bœuf grillé" loading="lazy">
+                            <span class="menu-number">01</span>
+                        </div>
+                        <div class="menu-card-content">
+                            <div class="menu-title-row">
+                                <h3>Classic Burger</h3>
+                                <p class="menu-price">6,90 <span>€</span></p>
+                            </div>
+                            <p>Le grand classique, tout simplement. Pain brioché doré et steak de bœuf grillé à la perfection.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/supreme-burger.jpg" alt="Suprême Burger avec cheddar et tomates" loading="lazy">
+                            <span class="menu-number">02</span>
+                        </div>
+                        <div class="menu-card-content">
+                            <div class="menu-title-row">
+                                <h3>Suprême Burger</h3>
+                                <p class="menu-price">7,90 <span>€</span></p>
+                            </div>
+                            <p>Un steak savoureux, du cheddar fondant et des rondelles de tomate bien fraîches.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="images/kingdom-burger.jpg" alt="Kingdom Burger généreux avec deux steaks de bœuf" loading="lazy">
+                            <span class="menu-number">03</span>
+                        </div>
+                        <div class="menu-card-content">
+                            <div class="menu-title-row">
+                                <h3>Kingdom Burger</h3>
+                                <p class="menu-price">8,90 <span>€</span></p>
+                            </div>
+                            <p>Deux steaks grillés et une bonne dose de gourmandise. Pour les grandes faims.</p>
+                        </div>
+                    </article>
+                </div>
+                <p class="menu-footnote">* Prix indicatifs, selon disponibilité en restaurant.</p>
+            </div>
+        </section>
+
+        <section class="newsletter-section" id="newsletter" aria-labelledby="titre-newsletter">
+            <div class="newsletter-inner page-wrap">
+                <div>
+                    <p class="eyebrow">On garde le contact ?</p>
+                    <h2 id="titre-newsletter">Les bons plans,<br><span>sans les miettes.</span></h2>
+                    <p>Une dose de nouvelles gourmandes directement dans votre boîte mail.</p>
+                </div>
+                <form class="newsletter-form" action="#" method="get">
+                    <div class="form-field">
+                        <label for="name">Votre prénom</label>
+                        <input type="text" name="name" id="name" autocomplete="given-name" placeholder="Ex. Camille" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Votre adresse e-mail</label>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="vous@exemple.fr" required>
+                    </div>
+                    <button class="button button-dark" type="submit">Je m’inscris <span aria-hidden="true">→</span></button>
+                    <p class="form-note">En vous inscrivant, vous acceptez de recevoir nos actualités.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="reviews-section section-pad" id="avis" aria-labelledby="titre-avis">
+            <div class="page-wrap">
+                <div class="reviews-heading">
+                    <div>
+                        <p class="eyebrow eyebrow-dark">Le mot des habitués</p>
+                        <h2 id="titre-avis">Ils en reprennent.<br><span>Et ils nous le disent.</span></h2>
+                    </div>
+                    <p class="reviews-aside">De vraies faims.<br>De vrais compliments.</p>
+                </div>
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="review-topline">
+                            <img src="images/avatar1.jpg" alt="" loading="lazy">
+                            <div><h3>Ella Deutranche</h3><p class="review-rating" aria-label="5 étoiles sur 5"><span aria-hidden="true">★★★★★</span></p></div>
+                        </div>
+                        <blockquote>« Les burgers sont énormes et savoureux, et le service est excellent. Je reviendrai à coup sûr ! »</blockquote>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-topline">
+                            <img src="images/avatar2.jpg" alt="" loading="lazy">
+                            <div><h3>Lambert Goer</h3><p class="review-rating" aria-label="4 étoiles sur 5"><span aria-hidden="true">★★★★<span class="star-muted">★</span></span></p></div>
+                        </div>
+                        <blockquote>« Des ingrédients frais, des burgers cuits à la perfection. Je recommande à tous les amateurs ! »</blockquote>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-topline">
+                            <img src="images/avatar3.jpg" alt="" loading="lazy">
+                            <div><h3>Eva Devoret</h3><p class="review-rating" aria-label="5 étoiles sur 5"><span aria-hidden="true">★★★★★</span></p></div>
+                        </div>
+                        <blockquote>« Toujours frais et délicieux. Le personnel est sympathique et accueillant, je n’ai jamais été déçue. »</blockquote>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-topline">
+                            <img src="images/avatar4.jpg" alt="" loading="lazy">
+                            <div><h3>Jean Reveu</h3><p class="review-rating" aria-label="5 étoiles sur 5"><span aria-hidden="true">★★★★★</span></p></div>
+                        </div>
+                        <blockquote>« Je suis végétarien et j’étais ravi de trouver une option pour moi. Mon burger était délicieux ! »</blockquote>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-main page-wrap">
+            <div class="footer-brand">
+                <a href="#accueil" aria-label="Burger Xpress, retour à l’accueil"><img src="images/logo.png" alt="Burger Xpress"></a>
+                <p>Le goût du burger,<br>sans détour.</p>
+            </div>
+            <div class="footer-links">
+                <h2>À découvrir</h2>
+                <a href="#menu">La carte</a>
+                <a href="#avis">Les avis</a>
+                <a href="#newsletter">La newsletter</a>
+            </div>
+            <div class="footer-contact">
+                <h2>Une petite faim ?</h2>
+                <p>Faites un tour sur notre carte et trouvez votre prochain favori.</p>
+                <a class="footer-cta" href="#menu">Voir la carte <span aria-hidden="true">↗</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom page-wrap">
+            <p>&copy; 2026 Burger Xpress. Tous droits réservés.</p>
+            <a href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a>
+        </div>
+    </footer>
+</body>
+</html>
